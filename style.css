@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: #bd5d38;
+    width: 270px;
+    height: 700px;
+    position: fixed;
+}
+.navbar img{
+    margin-top: 110px;
+    margin-left: 60px;
+    width: 145px;
+    border-radius: 130px;
+    border: 8px solid #ca7d60;
+}
+.navbar ul{
+    padding-top: 20px;
+    text-align: center;
+}
+.navbar li{
+    font-family:sans-serif;
+    font-size: 18px;
+    padding: 10px;
+}
+.navbar a{
+    color: #e1b6a5;
+    list-style: none;
+    text-decoration: none;
+    transition: 0.3s;
+}
+a.active, .navbar a:hover{
+    color: white;
+}
+.about h1{
+    color: #343a40;
+    font-size: 75px;
+    font-family: Fjalla one;
+    padding-top: 150px;
+    padding-left: 320px;
+}
+.about h1 span{
+    color: #bd5d38;
+}
+.about h2{
+    color: #757e7d;
+    font-size: 25px;
+    font-family:Barlow Condensed;
+    padding-top: 10px;
+    padding-left: 320px;
+}
+.about a{
+    color: #bd5d38;
+}
+
+.about p{
+    padding-top: 60px;
+    padding-left: 320px;
+    padding-right: 40px;
+    padding-bottom: 256px;
+    font-size: 18px;
+    font-family: Rubik;
+    color: #757e7d;
+}
+.experience h2{
+    color: #343a40;
+    font-size: 45px;
+    font-family: Fjalla one;
+    padding-top: 70px;
+    padding-left: 320px
+}
+.experience h3{
+    color: #343a40;
+    font-size: 25px;
+    font-family: Fjalla one;
+    padding-left: 320px;
+    padding-top: 30px;
+}
+.experience h3 span{
+    float: right;
+    padding-right: 20px;
+    font-size: 15px;
+    font-family:Rubik;
+    color: #bd5d38;
+}
+.experience h4{
+    padding-top: 7px;
+    padding-left: 320px;
+    color: #757e7d;
+    font-family:Barlow Condensed;
+    font-size: 23px;
+}
+.experience p{
+    padding-top: 20px;
+    padding-left: 320px;
+    padding-right: 200px;
+    padding-bottom: 80px;
+    font-size: 18px;
+    font-family:Rubik;
+    color: #757e7d;
+}
+.education h2{
+    color: #343a40;
+    font-size: 45px;
+    font-family: Fjalla one;
+    padding-top: 90px;
+    padding-left: 320px
+}
+.education h3{
+    color: #343a40;
+    font-size: 25px;
+    font-family: Fjalla one;
+    padding-left: 320px;
+    padding-top: 30px;
+}
+.education h3 span{
+    float: right;
+    padding-right: 20px;
+    font-size: 15px;
+    font-family:Rubik;
+    color: #bd5d38;
+}
+.education h4{
+    padding-top: 7px;
+    padding-left: 320px;
+    color: #757e7d;
+    font-family:Barlow Condensed;
+    font-size: 23px;
+}
+.education p{
+    padding-top: 20px;
+    padding-left: 320px;
+    padding-right: 200px;
+    padding-bottom: 100px;
+    font-size: 18px;
+    font-family:Rubik;
+    color: #757e7d;
+}
+.skills h2{
+    color: #343a40;
+    font-size: 45px;
+    font-family: Fjalla one;
+    padding-top: 120px;
+    padding-left: 320px
+}
+.skills h4{
+    padding-top: 50px;
+    padding-left: 320px;
+    color: #757e7d;
+    font-family:Barlow Condensed;
+    font-size: 23px;
+}
+.skills ul{
+    padding-top: 30px;
+    padding-bottom: 150px;
+}
+.skills li{
+    padding: 5px;
+    padding-left: 350px;
+    font-size: 17px;
+    color: #757e7d;
+    font-family: Rubik;
+}
+.interests h2{
+    color: #343a40;
+    font-size: 50px;
+    font-family: Fjalla one;
+    padding-top: 170px;
+    padding-left: 320px;
+}
+.interests p{
+    padding-top: 45px;
+    padding-left: 320px;
+    padding-right: 50px;
+    padding-bottom: 270px;
+    font-size: 17px;
+    color: #757e7d;
+    font-family:Rubik;
+}
+.awards h2{
+    color: #343a40;
+    font-size: 50px;
+    font-family: Fjalla one;
+    padding-top: 200px;
+    padding-left: 320px;
+}
+.awards ul{
+    padding-top: 45px;
+    padding-bottom: 150px;
+}
+.awards li{
+    padding: 5px;
+    padding-left: 350px;
+    font-size: 17px;
+    color: #757e7d;
+    font-family: Rubik;
+}
