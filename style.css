@@ -5,8 +5,9 @@
 .navbar{
     background-color: #bd5d38;
     width: 270px;
-    height: 700px;
+    height: 100%;
     position: fixed;
+    padding-top: 10%;
 }
 .navbar img{
     margin-top: 110px;
@@ -58,10 +59,15 @@ a.active, .navbar a:hover{
     padding-top: 60px;
     padding-left: 320px;
     padding-right: 40px;
-    padding-bottom: 256px;
+    padding-bottom: 50px;
     font-size: 18px;
     font-family: Rubik;
     color: #757e7d;
+}
+.about img{
+    padding-top: 10px;
+    padding-left: 320px;
+    padding-bottom: 100px;
 }
 .experience h2{
     color: #343a40;
@@ -161,6 +167,10 @@ a.active, .navbar a:hover{
     font-size: 17px;
     color: #757e7d;
     font-family: Rubik;
+}
+.skills img{
+    padding-top: 10px;
+    padding-left: 320px;
 }
 .interests h2{
     color: #343a40;
